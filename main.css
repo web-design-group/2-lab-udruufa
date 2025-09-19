@@ -122,18 +122,45 @@ main .seasons figure figcaption {
     text-align: center;
 }
 
-main .caption {
-    margin: 70px 0;
-    width: 70%;
+main .details {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 100px 0;
 }
 
-main .caption h2 {
+main .details .caption {
+    width: 65%;
+    border-top: 1px solid white;
+}
+
+main .details aside {
+    width: 30%;
+    border-top: 1px solid white;
+    /* border-left: 1px solid white; */
+}
+
+main .details .caption h2, main .details aside h2 {
     font-family: 'New Yorker';
 }
 
-main .caption p {
+main .details .caption p {
     font-family: 'AA Stetica';
     font-size: 1rem;
     text-align: justify;
     padding-bottom: 20px;
+}
+
+main .details aside a {
+    text-decoration: none;
+}
+
+main .details aside a p {
+    font-family: 'AA Stetica';
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+}
+
+main .details aside a:hover p {
+    color: rgb(164, 164, 164);
 }
