@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only murders in the building</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: #252525;
+            color: white;
+            background-size: 100%;
+        }
+        .container {
+            width: 65%;
+            margin: 0 auto;
+        }
+        header {
+            height: 60px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "AA Stetica";
+            font-weight: 400;
+        }
+        header nav {
+            height: 60px;
+            float: right;
+        }
+        header nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        header nav ul li {
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        header nav ul li.active a {
+            color: rgb(164, 164, 164);
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+        header nav ul li:not(.active) a{
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+        header nav ul li:not(.active) a:hover {
+            font-size: 1.05rem;
+            transition: all 200ms ease;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <img src="logo.png" alt="" style="height: 50px;">
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li class="active"><a href="/">MORE DETAILS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="caption">
+            <h2>SEASON 1</h2>
+            <p>Three neighbors of an elite New York building — aging TV star Charles, unsuccessful director Oliver, and young artist Mabel — are united after the death of one of their fellow residents, Tim Kono. Fascinated by true crime podcasts, they decide to conduct their own investigation, ignoring the police's theory, and record their own podcast about it, in the process of which each of them becomes connected to the deceased.</p>
+            <h2>SEASON 2</h2>
+            <p>Charles, Mabel, and Oliver face charges for the murder of Bunny Folger, the chairwoman of their house, and struggle to prove their innocence. Their investigation is complicated by the emergence of a rival podcast and the need to unravel Mabel's past.</p>
+            <h2>SEASON 3</h2>
+            <p>Charles, Mabel, and Oliver encounter a new murder that occurred on stage at Oliver's New York theater production of "Petty Crime." Their investigation leads them to the world of Broadway shows and then to Hollywood, where they try to discover which cast members are involved in the death of actor Ben Glenroy.</p>
+            <h2>SEASON 4</h2>
+            <p>Charles, Mabel, and Oliver try to solve the murder of Sazz Pataki, Charles' stunt double and girlfriend, on a Los Angeles set where they are traveling for a Hollywood film adaptation of their podcast.</p>
+            <h2>SEASON 5</h2>
+            <p>Charles, Oliver, and Mabel return to investigate a murder at their home, Arconia, specifically Lester's. The heroes become embroiled in a probe that takes them to the darkest corners of New York City and even beyond, uncovering dangerous secrets linking powerful individuals to the residents of Arconia.</p>
+        </section>
+    </main>
+    <footer class="container">
+        <p style="padding: 10px 0; font-family: 'AA Stetica'; font-weight: 300; font-size: 0.8rem;">&copy 2025 Design by Fedoseeva Irina Vasilyevna</p>
+    </footer>
+</body>
+</html>

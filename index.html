@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only murders in the building</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: #252525;
+            color: white;
+            background-size: 100%;
+        }
+        #container {
+            width: 65%;
+            margin: 0 auto;
+        }
+        header {
+            height: 60px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "AA Stetica";
+            font-weight: 400;
+        }
+        header nav {
+            height: 60px;
+            float: right;
+        }
+        header nav ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        header nav ul li {
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        header nav ul li.active a {
+            color: rgb(164, 164, 164);
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+        header nav ul li:not(.active) a{
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+        }
+        header nav ul li:not(.active) a:hover {
+            font-size: 1.05rem;
+            transition: all 200ms ease;
+        }
+    </style>
+</head>
+<body>
+    <header id="container">
+        <img src="logo.png" alt="" style="height: 50px;">
+        <nav>
+            <ul>
+                <li class="active"><a href="/">ABOUT</a></li>
+                <li><a href="details.html">MORE DETAILS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="container">
+        <section class="hero">
+            <p style="float: right;"></p>
+            <img src="back.png" alt="">
+            <p style="float: left;">Three strangers share an obsession with true crimeand suddenly find themselves wrapped up in one...</p>
+        </section>
+        <section class="characters">
+            <h1>MAIN CHARACTERS</h1>
+            <div class="content">
+                <div class="Mabel">
+                    <img src="Mabel.png" alt="">
+                    <article>
+                        <h2>Mabel Mora</h2>
+                        <p>
+                            Mabel Mora is part of the podcast trio. She is an artist who has lived in this building since childhood and she has her own secrets.
+                            <br><br>She is portrayed by Selena Gomez.
+                        </p>
+                    </article>
+                    <img src="" alt="">
+                </div>
+                <div class="Charles">
+                    <img src="Charles.png" alt="">
+                    <article>
+                        <h2>Charles-Haden Savage</h2>
+                        <p>
+                            Charles-Haden Savage is a semi-retired actor living in the Arconia, as well as a part of the newfound podcast trio.
+                            <br><br>He is portrayed by Steve Martin.
+                        </p>
+                    </article>
+                    <img src="" alt="">
+                </div>
+                <div class="Oliver">
+                    <img src="Oliver.png" alt="">
+                    <article>
+                        <h2>Oliver Putnam</h2>
+                        <p>
+                            Oliver Putnam is a struggling theater director and part of the podcast trio.
+                            <br><br>He is portrayed by Martin Short.
+                        </p>
+                    </article>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="seasons">
+            <h1>SEASONS</h1>
+            <div class="imgs">
+                <figure>
+                    <img class="image" src="imgs/Only_Murders_in_the_Building_Season_1.webp" alt="">
+                    <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf" target="_blank">
+                        <img class="frame" src="imgs/frame1.png" alt="">
+                    </a>
+                    <figcaption>SEASON 1</figcaption>
+                </figure>
+                <figure>
+                    <img class="image" src="imgs/Only_Murders_in_the_Building_Season_2.webp" alt="">
+                    <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf">
+                        <img class="frame" src="imgs/frame2.png" alt="">
+                    </a>
+                    <figcaption>SEASON 2</figcaption>
+                </figure>
+                <figure>
+                    <img class="image" src="imgs/Only_Murders_in_the_Building_Season_3.webp" alt="">
+                    <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf">
+                        <img class="frame" src="imgs/frame3.png" alt="">
+                    </a>
+                    <figcaption>SEASON 3</figcaption>
+                </figure>
+                <figure>
+                    <img class="image" src="imgs/Only_Murders_in_the_Building_Season_4.webp" alt="">
+                    <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf">
+                        <img class="frame" src="imgs/frame4.png" alt="">
+                    </a>
+                    <figcaption>SEASON 4</figcaption>
+                </figure>
+                <figure>
+                    <img class="image" src="imgs/Only_Murders_in_the_Building_Season_5.webp" alt="">
+                    <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf">
+                        <img class="frame" src="imgs/frame5.png" alt="">
+                    </a>
+                    <figcaption>SEASON 5</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer id="container">
+        <p style="padding: 10px 0; font-family: 'AA Stetica'; font-weight: 300; font-size: 0.8rem;">&copy 2025 Design by Fedoseeva Irina Vasilyevna</p>
+    </footer>
+</body>
+</html>
