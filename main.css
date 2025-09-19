@@ -5,18 +5,17 @@
 
 @font-face {
     font-family: "AA Stetica";
-    src: url("fonts/AA_Stetica/AA\ Stetica\ .otf");
-    font-weight: 300;
+    src: url("fonts/AA_Stetica/AA_Stetica_Regular.otf");
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "AA Stetica";
-    src: url("fonts/AA_Stetica/AA\ Stetica\ Regular.otf");
-    font-weight: 400;
+    src: url("fonts/AA_Stetica/AA_Stetica_Light.otf");
+    font-weight: 300;
 }
 
 main .hero p {
-    /* max-width: 230px; */
     font-family: "New Yorker";
     font-size: 1.5rem;
     text-align: center;
@@ -27,7 +26,6 @@ main .hero {
 }
 
 main .hero img {
-    /* padding: 0 0 50px 0; */
     width: 100%;
 }
 
@@ -37,8 +35,6 @@ main section h1 {
     font-family: "New Yorker";
     font-size: 3rem;
     text-align: center;
-    /* border: 1px solid white; */
-    background-color: #252525;
     position: relative;
     overflow: hidden;
 }
@@ -76,7 +72,6 @@ main .characters .content {
 main .characters img {
     width: 310px;
     margin: 0 30px;
-    clear: left;
 }
 
 main .characters article {
@@ -109,7 +104,6 @@ main .seasons .imgs {
     flex-wrap: wrap;
 }
 main .seasons figure {
-    /* display: table-cell; */
     margin: 35px 15px;
     display: flex;
     flex-flow: column;
@@ -117,13 +111,11 @@ main .seasons figure {
     max-width: 30%;
     padding: 0;
     position: relative;
-    /* border: 1px dotted white; */
 }
 
 main .seasons figure .image {
     width: 84%;
     cursor: pointer;
-    /* border: 1px dotted white; */
 }
 
 main .seasons figure .frame {
@@ -161,7 +153,6 @@ main .details .caption {
 main .details aside {
     width: 30%;
     border-top: 1px solid white;
-    /* clear: left; */
 }
 
 main .details .caption h2, main .details aside h2 {
@@ -188,4 +179,9 @@ main .details aside a p {
 
 main .details aside a:hover p {
     color: rgb(164, 164, 164);
+}
+
+.clear p {
+    font-family: 'AA Stetica';
+    text-align: justify;
 }
